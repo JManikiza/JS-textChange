@@ -7,11 +7,11 @@ const ottoman = document.getElementById('ottoman');
 const wwi = document.getElementById('wwi');
 const wwii = document.getElementById('wwii');
 
-var history = document.getElementById('history-text');
+let history = document.getElementById('history-text');
 
 
 paleo.onclick = function () {
-    document.getElementById('history-text').innerText = `The Paleolithic Age refers to a time period in history, from approximately 2.6
+    history.textContent = `The Paleolithic Age refers to a time period in history, from approximately 2.6
     million years ago to roughly 10,000 years ago. The Paleolithic Age covers the period from when stone
     tools were first used by man to the beginning of the Mesolithic Age. The Paleolithic Age is divided into
     three divisions, including the Lower, Middle, and Upper Paleolithic periods. During the Paleolithic Age
